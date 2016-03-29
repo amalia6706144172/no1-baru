@@ -34,7 +34,10 @@ public class No1 {
 			a= angka(a-1) + angka(a-2);
 		return a;
 	}
-        
+         public static int jumlah (int x ){
+        int angka1,angka2;
+        x = angka1+angka2;
+    }
 }
         
     
