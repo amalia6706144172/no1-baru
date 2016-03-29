@@ -19,17 +19,17 @@ public class No1 {
         // TODO code application logic here
                   
 		Scanner bilangan  = new Scanner(System.in);
-		System.out.print("Masukkanpa deret angka yang anda inginkan?");
+		System.out.print("Masukan deret angka yang ingin di tukar ?");
 		int d= bilangan.nextInt();
 		for(int z=1;z<=d;z++)
 			System.out.print(angka(z) + " ");
 		System.out.println();
 	}
 
-	private static int angka(int a)
+	private static int tukar (int a)
 	{
-		if(a==1 || a==2)
-			a=1;
+		if(a==2 || a==1)
+			a=2;
 		else
 			a= angka(a-1) + angka(a-2);
 		return a;
